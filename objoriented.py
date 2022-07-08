@@ -21,20 +21,20 @@
 # print(c.m)
 # print(c.c)
 
-class page:
-    def __init__(self,pages_number,pages_content):
-        self.page=pages_number
-        self.content=pages_content
-    def read(self):
-        print(f"reading {self.content}  of page number:{self.page}")
-    def print(self):
-        print(f"printing {self.page}")
-    def __repr__(self):
-        return self.content
+# class page:
+#     def __init__(self,pages_number,pages_content):
+#         self.page=pages_number
+#         self.content=pages_content
+#     def read(self):
+#         print(f"reading {self.content}  of page number:{self.page}")
+#     def print(self):
+#         print(f"printing {self.page}")
+#     def __repr__(self):
+#         return self.content
         
-    @staticmethod
-    def printing_out_of_the_content(content):
-        print(f"printing {content}")
+#     @staticmethod
+#     def printing_out_of_the_content(content):
+#         print(f"printing {content}")
     
 
 # p=page(12,'hello')
