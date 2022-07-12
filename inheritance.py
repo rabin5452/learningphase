@@ -17,6 +17,8 @@ class student(user):
         self.faculty=facultly
 
 t=teacher(1,"teacher","teacher","professor")
+s=student(2,"kabir1","kabir1","bct")
 uname=input("enter your usernme:")
 pwd=input("enter your password:")
-print(t.login(uname,pwd))
+#print(t.login(uname,pwd))
+print(s.login(uname,pwd))
