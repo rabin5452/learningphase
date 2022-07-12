@@ -15,4 +15,3 @@ class student(user):
     def __init__(self, id, username, pwd,facultly):
         super().__init__(id, username, pwd)
         self.faculty=facultly
-        
